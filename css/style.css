@@ -1,0 +1,151 @@
+/* Body reset */
+body {
+  font: 16px/1.5 Tahoma, sans-serif, Arial;
+  padding:0;
+  margin:0;
+  background-color: #E6E6E6;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+    border: 5px solid #e8491d;
+    border-radius: 10px;
+    color: #e8491d;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #e8491d;
+    color: white;
+}
+
+/* Header */
+header {
+  background-color: #5C5C5C;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+#icoon {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+header ul li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #merknaam {
+  float: left;
+  margin-left: 20px;
+}
+
+header #merknaam h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 400px;
+  background:url("C:/Users/Bertonie/Desktop/HTML/Dutch Novice Programmers/Oefeningen/Danny/img/programmingbackground_dark.jpg") no-repeat 0 -300px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#Abonneer {
+  background-color: #5C5C5C;
+  text-align: center;
+  padding: 20px;
+}
+
+#Abonneer h1 {
+  color: #ffffff;
+  float: left;
+}
+
+#Abonneer #abonneerknop {
+  margin-top: 10px;
+  float:right;
+}
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float:left;
+  text-align: center;
+  padding: 10px;
+  width: 30%;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+#boxes a {
+  text-decoration:none;
+  color: black;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #e8491d;
+  color: #ffffff;
+  text-align: center;
+}
