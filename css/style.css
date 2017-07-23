@@ -144,8 +144,18 @@ header a:hover {
 /* Footer */
 footer {
   padding: 20px;
-  margin-top: 20px;
   background-color: #e8491d;
   color: #ffffff;
   text-align: center;
 }
+
+#main {
+  text-align: center;
+  background:url("C:/Users/Bertonie/Desktop/HTML/Dutch Novice Programmers/Oefeningen/Danny/img/aboutbackground.jpg") no-repeat;
+  min-height: 1000px;
+}
+
+#main iframe {
+  margin-top: 200px;
+}
+
