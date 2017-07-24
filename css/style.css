@@ -171,11 +171,11 @@ footer {
 
 #cursusshowcase {
   min-height: 400px;
-  background:url('../img/course-background.jpg') no-repeat 0 -300px;
+  background:url('../img/course_background_dark.png') no-repeat 0 -220px;
   background-size: 100%;
   display: block;
   text-align: center;
-  color: #e8491d;
+  color: #fff;
 }
 
 #cursusshowcase h1 {
