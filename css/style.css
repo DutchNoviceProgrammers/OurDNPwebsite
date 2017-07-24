@@ -123,14 +123,10 @@ header a:hover {
   float:right;
 }
 
-#boxes {
-  margin-top: 20px;
-}
-
 #boxes .box {
   float:left;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   width: 30%;
 }
 
@@ -143,6 +139,9 @@ header a:hover {
   color: black;
 }
 
+#boxes .box:hover {
+  background-color: #fff;
+}
 /* Footer */
 footer {
   padding: 20px;
@@ -162,4 +161,3 @@ footer {
 #main iframe {
   margin-top: 200px;
 }
-
