@@ -91,6 +91,7 @@ header a:hover {
 #showcase {
   min-height: 400px;
   background:url("C:/Users/Bertonie/Desktop/HTML/Dutch Novice Programmers/Oefeningen/Danny/img/programmingbackground_dark.jpg") no-repeat 0 -300px;
+  background-size: 100%;
   text-align: center;
   color: #ffffff;
 }
