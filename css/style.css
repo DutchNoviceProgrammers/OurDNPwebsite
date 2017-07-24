@@ -90,8 +90,9 @@ header a:hover {
 /* Showcase */
 #showcase {
   min-height: 400px;
-  background:url("C:/Users/Bertonie/Desktop/HTML/Dutch Novice Programmers/Oefeningen/Danny/img/programmingbackground_dark.jpg") no-repeat 0 -300px;
+  background:url('C:/Users/Bertonie/Desktop/HTML/Dutch Novice Programmers/Oefeningen/Danny/img/programmingbackground_dark.jpg') no-repeat 0 -300px;
   background-size: 100%;
+  display: block;
   text-align: center;
   color: #ffffff;
 }
@@ -152,7 +153,9 @@ footer {
 
 #main {
   text-align: center;
-  background:url("C:/Users/Bertonie/Desktop/HTML/Dutch Novice Programmers/Oefeningen/Danny/img/aboutbackground.jpg") no-repeat;
+  background:url('C:/Users/Bertonie/Desktop/HTML/Dutch Novice Programmers/Oefeningen/Danny/img/aboutbackground.jpg') no-repeat;
+  background-size: 100%;
+  display: block;
   min-height: 1000px;
 }
 
