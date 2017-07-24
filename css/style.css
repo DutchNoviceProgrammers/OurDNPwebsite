@@ -168,3 +168,22 @@ footer {
 #main iframe {
   margin-top: 200px;
 }
+
+#cursusshowcase {
+  min-height: 400px;
+  background:url('../img/course-background.jpg') no-repeat 0 -300px;
+  background-size: 100%;
+  display: block;
+  text-align: center;
+  color: #e8491d;
+}
+
+#cursusshowcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#cursusshowcase p {
+  font-size: 20px;
+}
