@@ -127,6 +127,7 @@ header a:hover {
   float:left;
   text-align: center;
   padding: 20px;
+  min-height: 300px;
   width: 30%;
 }
 
@@ -141,6 +142,12 @@ header a:hover {
 
 #boxes .box:hover {
   background-color: #fff;
+  height: 100%;
+}
+
+#boxes .box:active {
+  background-color: #ADADAD;
+  height: 100%;
 }
 /* Footer */
 footer {
@@ -152,8 +159,8 @@ footer {
 
 #main {
   text-align: center;
-  background:url('../img/aboutbackground.jpg') no-repeat;
-  background-size: 100%;
+  background:url('../img/aboutbackground.jpg') no-repeat -150px -50px;
+  background-size: 120%;
   display: block;
   min-height: 1000px;
 }
