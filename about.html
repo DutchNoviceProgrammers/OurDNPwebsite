@@ -7,7 +7,7 @@
     <meta name="keywords" content="interactieve programmeercursus, html cursus, css cursus, Javascript cursus, Java cursus">
     <meta name="author" content="Dutch Novice Programmers">
     <title>DNP | Over ons</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link type = "text/css" rel="stylesheet" href="css/style.css">
     <link rel="icon" href="C:\Users\Bertonie\Pictures\DNPicon.png">
 
   </head>
@@ -19,26 +19,40 @@
           <h1><span class="highlight">Dutch</span> Novice Programmers</h1>
         </div>
         <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="current"><a href="about.html">Over ons</a></li>
-            <li><a href="course.html">Cursussen</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <ul id = "menu">
+            <li><a href = "index.html">Home</a></li>
+            <li class="current"><a href = "about.html">Over ons</a></li>
+            <li><a href = "course.html">Tutorials</a>
+              <ul class = 'hidden'>
+                <li><a href = "#">HTML / HTML5</a></li><li>
+                  <a href = "#">CSS / CSS3</a></li><li>
+                  <a href = "#">JAVASCRIPT</a></li><li>
+                  <a href = "#">JAVA</a></li>
+              </ul>
+            </li>
+            <li><a href = "#">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section id="main">
+    <section id="main-about">
       <div class="container">
-        <iframe width="1000" height="562" src="https://www.youtube.com/embed/D7FZBE_ggLM" frameborder="0" allowfullscreen></iframe>
+        <div class="competentie" id="interactief">Interactief</div>
+        <div class="competentie" id="creatief">Creatief</div>
+        <div class="competentie" id="simpel">Simpel</div>
       </div>
-    </section>
 
-    <section id="Abonneer">
-      <div class="container">
-        <h1>Blijf altijd op de hoogte van de nieuwste video's op onze Youtube-kanaal! Abonneer nu!</h1>
-            <a href="https://www.youtube.com/channel/UCMcfeFRG8-QRIHSXYd_PoGg" class="button" id="abonneerknop">Abonneren</a>
+        <div id="competentieblok">
+        <article class="competentietekst" id="interactiefuitleg">
+          <p>De tutorials die wij aanbieden zullen volledig interactief zijn. Dit betekent niet alleen maar leren, maar vooral ook doen!</p>
+        </article>
+        <article class="competentietekst" id="creatiefuitleg">
+          <p>De opdrachten die wij geven tijdens de cursus, zijn zelfbedacht en vereisen wat creativiteit. Zo kan je dus zelf bepalen hoe bepaalde dingen eruit komen te zien!</p>
+        </article>
+        <article class="competentietekst" id="simpeluitleg">
+          <p>Onze uitleg is voor iedereen te begrijpen. Ook als je nog helemaal geen ervaring hebt met een programeertaal.</p>
+        </article>
       </div>
     </section>
 
