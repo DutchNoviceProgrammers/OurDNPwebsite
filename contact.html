@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Gratis interactieve programmeercursussen">
+    <meta name="keywords" content="interactieve programmeercursus, html cursus, css cursus, Javascript cursus, Java cursus">
+    <meta name="author" content="Dutch Novice Programmers">
+    <title>DNP | Cursussen</title>
+    <link type = "text/css" rel="stylesheet" href="css/contact.css">
+    <link rel="icon" href="C:\Users\Bertonie\Pictures\DNPicon.png">
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="img/DNPicon.png" id="icoon">
+        <div id="merknaam">
+          <h1><span class="highlight">Dutch</span> Novice Programmers</h1>
+        </div>
+        <nav>
+          <ul id = "menu">
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "about.html">Over ons</a></li>
+            <li><a href = "course.html">Tutorials</a>
+              <ul class = 'hidden'>
+                <li><a href = "#">HTML / HTML5</a></li><li>
+                  <a href = "#">CSS / CSS3</a></li><li>
+                  <a href = "#">JAVASCRIPT</a></li><li>
+                  <a href = "#">JAVA</a></li>
+              </ul>
+            </li>
+            <li class="current"><a href = "contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <section id="contactmain">
+      <div class="container">
+        <form id="contact" action="" method="post">
+    <h3>Contactformulier</h3>
+    <h4>Heb je een vraag? Binnen 24 uur krijg je antwoord!</h4>
+    <fieldset>
+      <input placeholder="Je naam" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Je e-mailadres" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Je telefoonnummer" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Typ hier je bericht/vraag..." tabindex="4" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Verstuur</button>
+    </fieldset>
+  </form>
+
+        </div>
+    </section>
+
+    <footer>
+      <p>Dutch Novice Programmers, Copyright &copy; 2017</p>
+    </footer>
+  </body>
+</html>
