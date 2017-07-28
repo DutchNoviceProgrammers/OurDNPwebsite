@@ -184,19 +184,31 @@ font-weight: bold;
   padding: 20px;
   text-align: center;
   vertical-align: top;
-  font-weight: bold;
   color: #fff;
 }
 
 #who h1 {
+  font-weight: bold;
   font-size: 40px;
 }
 
+#who .quotes .uitlegdiv {
+  width: 80%;
+  text-align: center;
+}
+
+#who #uitlegbert {
+  float: right;
+}
+#who #uitlegdanny {
+  float: left;
+}
+
 #who .quotes {
-  margin: 0;
+  font-family: monospace;
+  margin:0;
   width: 100%;
-  padding: 30px 0;
-  vertical-align: middle;
+  padding: auto 0;
   display: inline-block;
 }
 
@@ -210,7 +222,7 @@ height: 150px;
 border-radius: 100%;
 border: 1px solid black;
 float: left;
-margin: 0 10px;
+margin: auto 10px;
 }
 
 #who #fotodanny {
@@ -219,7 +231,7 @@ height: 150px;
 border-radius: 100%;
 border: 1px solid black;
 float: right;
-margin: 0 10px;
+margin: 20px 10px;
 }
 
 #who blockquote {
