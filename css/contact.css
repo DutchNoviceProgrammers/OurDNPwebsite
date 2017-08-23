@@ -1,152 +1,40 @@
-/* Body reset */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
 body {
-  font: 16px/1.5 Tahoma, sans-serif, Arial;
-  padding:0;
-  margin:0;
-  background-color: #E6E6E6;
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
 	line-height:30px;
 	color:#777;
+	background:orange;
 }
-
 
 .container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
-  text-align: center;
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-.button {
-    border: 3px solid #e8491d;
-    border-radius: 10px;
-    color: #e8491d;
-    font-weight: bold;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-.button:hover {
-    background-color: #e8491d;
-    color: white;
-}
-
-/* Header */
-header {
-  background-color: #5C5C5C;
-  color: #ffffff;
-  padding-top: 35px;
-  min-height: 90px;
-  border-bottom: #e8491d 3px solid;
-}
-
-#icoon {
-  width: 50px;
-  height: 50px;
-  float: left;
-}
-
-header .highlight{
-  color: #e8491d;
-  font-weight: bold;
-}
-
-header .current a{
-  background-color: #e8491d;
-}
-
-header #merknaam {
-  float: left;
-  margin-left: 20px;
-}
-
-header #merknaam h1 {
-  margin-top: 9px;
-}
-
-nav {
-  position: absolute;
-  margin-left: 45%;
-  margin-top: 10px;
-}
-
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li{
-  display: inline-block;
-  float: left;
-  margin-right: 2px;
-}
-li a {
-  display: block;
-  min-width: 140px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  font-family: Tahoma, Helvetica, Arial, sans-serif;
-  color: #ffffff;
-  text-decoration: none;
-}
-li:hover a{
-  background: #e8491d;
-}
-li:hover ul li a{
-  background: #E6E6E6;
-  color: #2f3036;
-  height: 30px;
-  line-height: 30px;
-}
-li:hover ul li a:hover{
-  background: #e8491d;
-  color: #ffffff;
-}
-li ul{
-  display: none;
-}
-li ul li{
-  display: block;
-  float: none;
-}
-
-li ul li a{
-  width: auto;
-  min-width: 140px;
-  margin-right: -2px;
-}
-
-ul li a:hover + .hidden, .hidden:hover {
-  display: block;
-}
-
-footer {
-  padding: 20px;
-  background-color: #e8491d;
-  color: #ffffff;
-  text-align: center;
-}
-
-#contactmain{
-min-height: 1000px;
-}
-
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
 	background:#F9F9F9;
-	padding:20px;
-	margin:50px auto;
-  max-width: 600px;
+	padding:25px;
+	margin:50px 0;
 }
 
 #contact h3 {
@@ -164,13 +52,13 @@ min-height: 1000px;
 
 fieldset {
 	border: medium none !important;
-	margin: 0 -10px 10px;
+	margin: 0 0 10px;
 	min-width: 100%;
 	padding: 0;
 	width: 100%;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
 	width:100%;
 	border:1px solid #CCC;
 	background:#FFF;
@@ -178,7 +66,7 @@ fieldset {
 	padding:10px;
 }
 
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact textarea:hover {
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
@@ -195,15 +83,15 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:#5C5C5C;
+	background:orange;
 	color:#FFF;
-	margin:0 10px;
+	margin:0 0 5px;
 	padding:10px;
 	font-size:15px;
 }
 
 #contact button[type="submit"]:hover {
-	background:#999;
+	background:#09C;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -226,4 +114,15 @@ fieldset {
 }
 :-ms-input-placeholder {
  color:#888;
+}
+
+.error {
+	color: red;
+}
+
+.success {
+	color: #ff9966;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
 }
