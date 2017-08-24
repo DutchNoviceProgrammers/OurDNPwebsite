@@ -17,7 +17,7 @@
             <li><a href = "contact.php">Contact</a></li>
           </ul>
         </nav>
-  <form id="contact" action=<?= $_SERVER['PHP_SELF']; ?> method="post">
+  <form id="contact" action="" method="post">
     <h3>Quick Contact</h3>
     <h4>Contact us today, and get reply with in 24 hours!</h4>
     <fieldset>
