@@ -1,5 +1,6 @@
 <?php include('contactproces/proces.php');?>
 <link type="text/css" rel="stylesheet" href="css/contact.css">
+<link type = "text/css" rel="stylesheet" href="css/style.css">
 <div class="container">  
 	<nav>
           <ul id = "menu">
