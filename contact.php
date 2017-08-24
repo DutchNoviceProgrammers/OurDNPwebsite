@@ -1,6 +1,21 @@
 <?php include('contactproces/proces.php');?>
 <link type="text/css" rel="stylesheet" href="css/contact.css">
 <div class="container">  
+	<nav>
+          <ul id = "menu">
+            <li class="current"><a href = "index.html">Home</a></li>
+            <li><a href = "about.html">Over ons</a></li>
+            <li><a href = "course.html">Tutorials</a>
+              <ul class = 'hidden'>
+                <li><a href = "#">HTML / HTML5</a></li><li>
+                  <a href = "#">CSS / CSS3</a></li><li>
+                  <a href = "#">JAVASCRIPT</a></li><li>
+                  <a href = "#">JAVA</a></li>
+              </ul>
+            </li>
+            <li><a href = "contact.php">Contact</a></li>
+          </ul>
+        </nav>
   <form id="contact" action=<?= $_SERVER['PHP_SELF']; ?> method="post">
     <h3>Quick Contact</h3>
     <h4>Contact us today, and get reply with in 24 hours!</h4>
